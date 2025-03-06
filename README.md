@@ -1,4 +1,4 @@
-```markdown
+
 # Redis Laboratory Runbook
 
 Este repositório contém os comandos necessários para configurar e utilizar o Redis em um ambiente de laboratório. Siga as instruções abaixo para instalar o Docker, criar containers do Redis e executar comandos no Redis.
@@ -223,5 +223,5 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
 
 Sinta-se à vontade para contribuir com este repositório. Abra uma issue ou envie um pull request com melhorias e sugestões.
 
-```
+
 
