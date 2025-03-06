@@ -13,6 +13,9 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
 ### Conectando na VM na cloud de uma maquina windows
 
 ### 1. Crie uma VM Standard B2s (2 vcpus, 4 GiB de memória) na Azure e copie a chave PEM.
+
+https://fiapcom-my.sharepoint.com/:v:/g/personal/pf0861_fiap_com_br/EabfAw9VGV5Kq_4o6828RwwBMNLNYh_7TDcXBfiSeVW3fA?e=w5bmHa
+
 2. **Descubra user local com**
 ```cmd
 whoami
