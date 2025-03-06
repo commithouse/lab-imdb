@@ -5,42 +5,6 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
 
 ## Pré-requisitos
 
-### Instalação do Docker no Windows
-
-1. **Verifique os Requisitos:**
-   - Windows 10 64 bits (versão 19041 ou superior).
-   - Virtualização habilitada na BIOS (Intel VT-x ou AMD-V).
-
-2. **Baixe o Docker Desktop:**
-   - Acesse a página oficial de download do Docker Desktop.
-   - Clique no botão de download para baixar o instalador.
-
-3. **Execute o Instalador:**
-   - Após o download, execute o arquivo `Docker Desktop Installer.exe`.
-   - Siga as instruções do instalador para concluir a instalação.
-
-4. **Ative o WSL 2 (Windows Subsystem for Linux):**
-   - Abra o PowerShell como administrador e execute o seguinte comando:
-     ```sh
-     wsl --set-default-version 2
-     ```
-
-5. **Inicie o Docker Desktop:**
-   - Após a instalação, o Docker Desktop será iniciado automaticamente.
-
-6. **Teste o Docker:**
-   - Abra o PowerShell ou o terminal e execute alguns comandos do Docker para verificar se tudo está funcionando corretamente:
-     ```sh
-     docker --version
-     docker-compose --version
-     ```
-
-7. **Adicione seu Usuário ao Grupo Docker (opcional):**
-   - Para evitar usar o Docker com privilégios de administrador, você pode adicionar seu usuário ao grupo Docker:
-     ```sh
-     Add-LocalGroupMember -Group "Docker Users" -Member "NomeDoSeuUsuário"
-     ```
-
 ### Instalação do Docker no Ubuntu Server
 
 ### Conectando na VM na cloud de uma maquina windows
@@ -247,6 +211,42 @@ ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
   GET WALLET:DANIEL
   GET WALLET:JOAO
   ```
+
+### Instalação do Docker no Windows
+
+1. **Verifique os Requisitos:**
+   - Windows 10 64 bits (versão 19041 ou superior).
+   - Virtualização habilitada na BIOS (Intel VT-x ou AMD-V).
+
+2. **Baixe o Docker Desktop:**
+   - Acesse a página oficial de download do Docker Desktop.
+   - Clique no botão de download para baixar o instalador.
+
+3. **Execute o Instalador:**
+   - Após o download, execute o arquivo `Docker Desktop Installer.exe`.
+   - Siga as instruções do instalador para concluir a instalação.
+
+4. **Ative o WSL 2 (Windows Subsystem for Linux):**
+   - Abra o PowerShell como administrador e execute o seguinte comando:
+     ```sh
+     wsl --set-default-version 2
+     ```
+
+5. **Inicie o Docker Desktop:**
+   - Após a instalação, o Docker Desktop será iniciado automaticamente.
+
+6. **Teste o Docker:**
+   - Abra o PowerShell ou o terminal e execute alguns comandos do Docker para verificar se tudo está funcionando corretamente:
+     ```sh
+     docker --version
+     docker-compose --version
+     ```
+
+7. **Adicione seu Usuário ao Grupo Docker (opcional):**
+   - Para evitar usar o Docker com privilégios de administrador, você pode adicionar seu usuário ao grupo Docker:
+     ```sh
+     Add-LocalGroupMember -Group "Docker Users" -Member "NomeDoSeuUsuário"
+     ```
 
 ## Contribuição
 
