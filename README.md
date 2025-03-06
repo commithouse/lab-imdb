@@ -12,7 +12,7 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
 
 ### Conectando na VM na cloud de uma maquina windows
 
-# 1.Crie uma VM Standard B2s (2 vcpus, 4 GiB de memória) na Azure e copie a chave PEM.
+### 1.Crie uma VM Standard B2s (2 vcpus, 4 GiB de memória) na Azure e copie a chave PEM.
 2.**Descubra user local com**
 ```cmd
 whoami
@@ -68,14 +68,8 @@ ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
      docker run hello-world
      ```
 
-1. **Atualize o Sistema:**
-   - Abra um terminal e execute os seguintes comandos:
-     ```sh
-     sudo apt update
-     sudo apt upgrade
-     ```
 
-## Criando container VALKEY
+# Criando container VALKEY
 
    - Criar container valkey
      ```sh
@@ -85,7 +79,7 @@ ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
 
 
 
-## Criando Containers do Redis
+# Criando Containers do Redis
 
 1. **Criar e Iniciar o Container Redis:**
    - O comando abaixo expõe o `redis-server` na porta 6379 e o `RedisInsight` na porta 8001:
