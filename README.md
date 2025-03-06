@@ -86,6 +86,25 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
      ```sh
      docker run hello-world
      ```
+### Conectando na VM na cloud de uma maquina windows
+1.**Descubra user local com **
+```cmd
+whoami
+```
+2.**Alterar permissao de chave pem para ser executado no powershell e conectar via ssh**
+```cmd
+icacls "imdb-chaves.pem" /inheritance:r /grant:r SYSTEM:F /grant:r Administrators:F /grant:r <SEU_USER_WINDOWS>:F
+
+ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
+```
+
+
+1. **Atualize o Sistema:**
+   - Abra um terminal e execute os seguintes comandos:
+     ```sh
+     sudo apt update
+     sudo apt upgrade
+     ```
 
 ## Criando Containers do Redis
 
