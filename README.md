@@ -78,8 +78,13 @@ ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
      docker run -d --name valkey -p 6380:6379 valkey/valkey
      ```
 
-
-
+# Criando container VALKEY com docker compose
+- baixe o projeto git com arquivo docker-compose.yml
+     ```sh
+     git clone https://github.com/commithouse/lab-imdb
+     cd lab-imdb
+     docker-compose up -d
+     ```
 
 # Criando Containers do Redis
 
