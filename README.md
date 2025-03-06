@@ -1,5 +1,3 @@
-Claro! Vou criar um arquivo `README.md` formatado com os comandos extraídos do documento. Aqui está um exemplo de como o arquivo pode ser estruturado:
-
 ```markdown
 # Redis Laboratory Runbook
 
@@ -225,9 +223,5 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
 
 Sinta-se à vontade para contribuir com este repositório. Abra uma issue ou envie um pull request com melhorias e sugestões.
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 ```
 
-Você pode copiar e colar o conteúdo acima em um arquivo chamado `README.md` no seu repositório GitHub. Se precisar de mais alguma coisa, estou à disposição!
