@@ -11,7 +11,8 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
 
 
 ### Conectando na VM na cloud de uma maquina windows
-1.**Crie uma VM Standard B2s (2 vcpus, 4 GiB de memória) na Azure e copie a chave PEM.**
+
+#1.Crie uma VM Standard B2s (2 vcpus, 4 GiB de memória) na Azure e copie a chave PEM.
 1.**Descubra user local com**
 ```cmd
 whoami
