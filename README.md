@@ -24,6 +24,8 @@ icacls "imdb-chaves.pem" /inheritance:r /grant:r SYSTEM:F /grant:r Administrator
 ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
 ```
 
+## Instalando docker no ubuntu
+
 1. **Atualize o Sistema:**
    - Abra um terminal e execute os seguintes comandos:
      ```sh
