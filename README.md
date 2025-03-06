@@ -106,7 +106,7 @@ ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
      sudo apt upgrade
      ```
 
-##Criando container VALKEY
+## Criando container VALKEY
 
    - Criar container valkey
      ```sh
