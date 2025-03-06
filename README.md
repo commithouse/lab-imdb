@@ -7,12 +7,16 @@ Este repositório contém os comandos necessários para configurar e utilizar o 
 
 ### Instalação do Docker no Ubuntu Server
 
+
+
 ### Conectando na VM na cloud de uma maquina windows
-1.**Descubra user local com **
+
+1.**Crie uma VM Standard B2s (2 vcpus, 4 GiB de memória) na Azure e copie a chave PEM.**
+2.**Descubra user local com **
 ```cmd
 whoami
 ```
-2.**Alterar permissao de chave pem para ser executado no powershell e conectar via ssh**
+3.**Alterar permissao de chave pem para ser executado no powershell e conectar via ssh**
 ```cmd
 icacls "imdb-chaves.pem" /inheritance:r /grant:r SYSTEM:F /grant:r Administrators:F /grant:r <SEU_USER_WINDOWS>:F
 
