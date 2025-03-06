@@ -106,6 +106,16 @@ ssh -i imdb-chaves.pem ubuntu@<IP_PUBLICO_VM>
      sudo apt upgrade
      ```
 
+#Criando container VALKEY
+
+   - Criar container valkey
+     ```sh
+     docker run -d --name valkey -p 6380:6379 valkey/valkey
+     ```
+
+
+
+
 ## Criando Containers do Redis
 
 1. **Criar e Iniciar o Container Redis:**
